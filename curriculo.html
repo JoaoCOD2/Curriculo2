@@ -1,11 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Estrutura Básica de HTML</title>
 </head>
 <body>
-    
+
+    <!-- O <header> é usado para conter informações introdutórias ou de navegação -->
+    <header>
+        <h1>Bem-vindo ao meu Curriculo</h1>
+        <!-- A tag <nav> é usada para conter links de navegação -->
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#objetivo">Objetivo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- A tag <main> é usada para conter o conteúdo principal do documento -->
+    <main>
+        <!-- A tag <article> é usada para conter conteúdo independente e autônomo -->
+        <article id="home">
+            <h2>Home</h2>
+            <p>Meu nome é João Pedro e sou programador iniciante.</p>
+        </article>
+         <hr>
+
+        <!-- A tag <section> é usada para agrupar conteúdo relacionado -->
+        <section id="sobre">
+            <h2>Sobre mim:</h2>
+             Eu faço curso técnico de TI na Ulbra, tenho 16 anos e tenho experiência com Java e estou estudando HTML no
+        curso.
+        <br>
+        Atualmente trabalho na <strong>Churrascaria Espaço Grill</strong> durante os finais de semana fazendo drinks.
+        <br>
+        </section>
+        <hr>
+
+        <section id="objetivo">
+        <h2>Objetivos</h2>
+        <p>Meu objetivo com um programador iniciante é poder ganhar mais experiencia com desenvolvimento Web, desenvolver habilidades técnicas e adquirir conecimento prático. </p>
+       </section>
+
+       <hr>
+        <!-- Outra <article> para diferenciar conteúdo autônomo -->
+        <article id="contato">
+
+            <h2>Contato</h2>
+            <p><strong><h2><strong>Entre em contato pelo o e-mail ou telefone:</strong></h2>
+    <p>
+        <strong style="color: rgba(255, 0, 0, 0.479);">E-mail:</strong> joao.pedrorfc23@gmail.com<br>
+        <strong style="color: rgba(43, 255, 0, 0.555);">Telefone:</strong> (51) 98583-0534
+    </p>
+
+    <h2>Clique aqui para acessar eu github</h2>
+    <a href="https://github.com/JoaoCOD2" target="_blank">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAMAAACfWMssAAAAY1BMVEX///8bHyMAAAAAAAgQFRoWGh/6+voAAAsYHCAJEBZLTU8vMjXJycl4eXoFDRSdnZ7Q0dGFhoe2trdsbW5ERkchJCfh4eGOj5Dv7+/b29uoqalQUlO+v79gYmMABg4rLTA4Oj0uiewuAAACsklEQVRIiZWW2cKqIBCAnQFTciE1s+yPev+nPCCL4IZnrsL4YJg9Sbbk0Q7dtQAort3QPja3bEhZIZKapjlAntKaIFZlnLpwhgwWIj/xyzHHMcuXmJI8Q36A3YBsUVoI3Pa4Bjdvc7dis/26+8F15tL7xkuf/coma2H9c8UxGucAKFuQl/4UJ8k+1Pau9WRil6ei1lvugT21XeqGd4jpmsoJfvggpt/Es+0N9f+oFu1XeUXGmsgyISNP7YVRKfjV3sLZn6C/0I9ejjI8v5+GjyNvugLRBk2jlU3Bctw4sB6sif88C1xKmx6t2UfMQRejKGRH4Sjlz25EfS7PzFpEwHZxA7MRyqpjkAtrZKaWpT1HmugYfDsno8rsysWoiN3orph0c6v0e8wFV8q6hMH9h+LtfTjnQNrHOO9K0iZDDQv3H8hI5s2dPQT/4uDL6kq75GqTAV9x8GnB9JoU1v14omK76MyLxNrp/0AAD9wtmxuqSnBWtY2DL09VZxxxwh2tZxznDvqOgy6upTtcANj0PBJq3yUDwIUcZGOMmzNQhtwcuDmNgXdXOZXvZgvXp/NxKqRzIsNh85xrlUlko7hq+bDTAScZZ86k7lSsRMFU7Se/nWy+XT1OF6upPApp0RKkS1Ms+CpNHuMd/W5kyqOK3LyW2Xj5KqulArOf99j2V2MWNiLrcdUCchzmGM5rPxaKZfsi7lhIzYONAcKS3i5mA6/8Tm1u8j/HmlIWZpiXS1pR79+psU4aPJr3u1pUHxpMMSRwmWrlux2g98GwlevhYS/kwAMpLHLoSSVJ3puVzgNX44oZkChCV1WfxakzyGDFqZFM25Yxlu2AmyNZ4g2BIvw/15/T/RS49RrNtkCSH9VPPeiSEJQZFxl0EzVaUxQYfhMZithoraQcFjl5a040stPyDx1xHNRhfHsRAAAAAElFTkSuQmCC"
+            width="55" height="55" alt="GitHub">
+    </a>
+    <br>
+    <h2>Clique aqui para acessar meu LinkedIn</h2>
+    <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-cardoso-a6bbb4368/" target="_blank">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0bGEl9v47XieEtHyj0TqTr1tOXJmib-KHtw&s"
+            width="55" height="55" alt="LinkedIn">
+    </a>
+</strong> </p>
+        </article>
+    </main>
+
+    <!-- O <footer> é usado para conter informações de rodapé do documento -->
+    <footer>
+        <p>&copy; 2024 Meu Site. Todos os direitos reservados para João Cardoso.</p>
+    </footer>
+
 </body>
 </html>
