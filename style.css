@@ -1,3 +1,8 @@
+ * {
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+}
  li {
      font-size: 60px;
  }
@@ -14,7 +19,7 @@
  nav ul li a {
      color: white;
      text-decoration: none;
-     font-size: 18px;
+     font-size: 25px;
      padding: 8px 16px;
      border-radius: 4px;
      transition: background-color 0.5s ease;
@@ -25,7 +30,7 @@
      color: black;
  }
 
- img {
+ .img1 {
      width: 55px;
      animation: move 1s infinite alternate;
  }
@@ -40,9 +45,19 @@
      }
  }
 
- .container {
-     text-align: center;
-     margin-top: 50px;
+ .img2 {
+     width: 55px;
+     animation: move 1s infinite alternate;
+ }
+
+ @keyframes move {
+     from {
+         transform: translateX(0);
+     }
+
+     to {
+         transform: translateX(10px);
+     }
  }
 
 
@@ -58,9 +73,56 @@
  h1 {
      font-family: 'Verdana', sans-serif;
      color: azure;
+     background-color: #1a2250;
+     border: #0c192c;
+     border-radius: 16px;
+     padding: 10px;
+     text-align: center;
  }
 
  h2 {
      font-family: 'Verdana', sans-serif;
      color: azure;
+
  }
+
+ .obj {
+     height: 550px;
+ }
+
+ .sb {
+     height: 800px;
+ }
+
+ .hm {
+     height: 450px;
+ }
+
+ .tecnologia {
+      margin-bottom: 20px;
+    }
+
+    .tecnologia img {
+      cursor: pointer;
+      height: 80px;
+    }
+
+    .explicacao {
+      display: none;
+      margin-top: 10px;
+      padding: 10px;
+      border: 1px solid #00ffff;
+      border-radius: 8px;
+      background-color: #ffffff12;
+      font-size: 18px;
+      max-width: 500px;
+    }
+
+    input[type="checkbox"] {
+      display: none;
+    }
+
+    input[type="checkbox"]:checked + label + .explicacao {
+      display: block;
+    }
+
